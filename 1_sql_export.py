@@ -2,7 +2,7 @@
 Stage 1: Database Export
 
 SQL Server から大量データを抽出し、後続の前処理パイプライン
-（Stage 2〜4）で利用するための CSV として分割保存するステージ。
+で利用するための CSV として分割保存するステージ。
 
 - pyodbc による SQL Server 接続
 - pandas による chunksize ストリーミング取得
