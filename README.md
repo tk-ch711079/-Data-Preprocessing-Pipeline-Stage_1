@@ -1,4 +1,4 @@
-# Data Preprocessing Pipeline (Stage 1–3)
+# Data Preprocessing Pipeline (Stage 1)
 
 本リポジトリは、業務システムから出力される大量データを
 「抽出 → 分割統合 → マスタ変換」するための
