@@ -19,7 +19,7 @@ class DatabaseExporter:
     """SQL Server からデータを抽出し、CSV に分割保存するクラス"""
 
     def __init__(self):
-        # ※ 転職用のため、接続情報はダミー値に置換
+        # ※ 接続情報はダミー値に置換
         self.conn_str = (
             "DRIVER={ODBC Driver 18 for SQL Server};"
             "SERVER=sample-server.database.windows.net;"
