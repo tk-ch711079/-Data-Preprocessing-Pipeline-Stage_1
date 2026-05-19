@@ -1,7 +1,7 @@
 """
-Stage 3: Master-based File & Value Converter
+3: Master-based File & Value Converter
 
-Stage 2 で作成した ProjectId 分割 CSV に対して、
+2 で作成した ProjectId 分割 CSV に対して、
 変換マスタ（変換マスタ.csv）を用いて以下の処理を行うステージ。
 
 - ファイル名の変換（pj_123 → pj_ABC など）
