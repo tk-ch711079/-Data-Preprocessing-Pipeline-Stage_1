@@ -1,8 +1,8 @@
 """
-Stage 2: Project-based CSV Splitter
+2: Project-based CSV Splitter
 
-Stage 1 で抽出した大量 CSV を、ProjectId 単位で統合・重複排除し、
-後続の Stage 3（Excel 集約）で扱いやすい形に分割保存するステージ。
+1 で抽出した大量 CSV を、ProjectId 単位で統合・重複排除し、
+後続の 3（Excel 集約）で扱いやすい形に分割保存するステージ。
 
 主な処理内容：
 - GUI（PySide6）で最大5つの CSV を指定可能
